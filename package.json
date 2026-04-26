@@ -8,7 +8,16 @@
   ],
   "scripts": {
     "build:shared": "cd app-shared && npm run build",
-    "dev:web": "cd app-api && npm run start:local"
+    "build:api": "cd app-api && npm run build",
+    "build:web": "cd app-web && npm run build",
+    "dev:api": "cd app-api && npm run dev",
+    "dev:web": "cd app-web && npm run dev",
+    "start:api": "cd app-api && npm run start",
+    "start:web": "cd app-web && npm run start",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "typecheck:shared": "cd app-shared && npx tsc --noEmit",
+    "typecheck:api": "cd app-api && npx tsc --noEmit",
+    "typecheck:web": "cd app-web && npx tsc --noEmit"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -20,5 +29,15 @@
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
     "drizzle-orm": "^0.45.2"
+  },
+  "overrides": {
+    "@types/node": "^24",
+    "emoji-regex": "^9.2.2",
+    "globals": "^17",
+    "react-is": "^18",
+    "semver": "^7.7.4",
+    "strip-bom": "^4",
+    "tsconfig-paths": "^4.2.0",
+    "undici-types": "^7"
   }
 }

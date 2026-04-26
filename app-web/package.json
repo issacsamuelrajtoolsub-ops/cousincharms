@@ -6,7 +6,8 @@
     "dev": "dotenv -e .env.local -- next dev",
     "build": "dotenv -e .env.prod -- next build",
     "start": "dotenv -e .env.prod -- next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@mantine/core": "^9.1.0",
@@ -22,10 +23,9 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "dotenv-cli": "^11.0.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.4",
     "tailwindcss": "^4",
