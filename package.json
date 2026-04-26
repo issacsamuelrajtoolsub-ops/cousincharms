@@ -1,7 +1,11 @@
 {
   "name": "cousincharms",
   "private": true,
-  "workspaces": ["app-shared", "app-api", "app-web"],
+  "workspaces": [
+    "app-shared",
+    "app-api",
+    "app-web"
+  ],
   "scripts": {
     "build:shared": "cd app-shared && npm run build",
     "dev:web": "cd app-api && npm run start:local"
@@ -10,6 +14,11 @@
     "node": ">=18.0.0"
   },
   "devDependencies": {
-    "dotenv-cli": "^11.0.0"
+    "dotenv-cli": "^11.0.0",
+    "drizzle-kit": "^0.31.10"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
+    "drizzle-orm": "^0.45.2"
   }
 }
