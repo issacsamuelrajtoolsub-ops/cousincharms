@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Cousin Charms mark">
+  <defs>
+    <linearGradient id="cm-charm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FADB5F"></stop>
+      <stop offset="1" stop-color="#DE911D"></stop>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#FFFBEA" stroke="#1A1612" stroke-width="1.5"></circle>
+  <path d="M 32 10 L 32 22" stroke="#2B231C" stroke-width="1.5" stroke-linecap="round"></path>
+  <circle cx="32" cy="24" r="2.6" fill="none" stroke="#2B231C" stroke-width="1.5"></circle>
+  <path d="M 32 48 C 22 38, 22 28, 27 26.5 C 30 25.8, 32 28, 32 30 C 32 28, 34 25.8, 37 26.5 C 42 28, 42 38, 32 48 Z" fill="url(#cm-charm)" stroke="#2B231C" stroke-width="1.4" stroke-linejoin="round"></path>
+  <path d="M 28 33 L 29 35.5 L 31.5 36.5 L 29 37.5 L 28 40 L 27 37.5 L 24.5 36.5 L 27 35.5 Z" fill="#FFFBEA"></path>
+</svg>

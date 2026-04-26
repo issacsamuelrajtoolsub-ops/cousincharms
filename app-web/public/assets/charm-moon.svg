@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" width="200" height="280" aria-label="Moon charm">
+  <defs>
+    <linearGradient id="m-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FCE588"></stop>
+      <stop offset="1" stop-color="#B44D12"></stop>
+    </linearGradient>
+  </defs>
+  <path d="M 100 0 L 100 70" stroke="#2B231C" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="0 6"></path>
+  <g stroke="#2B231C" stroke-width="1.4" fill="none">
+    <ellipse cx="100" cy="14" rx="4" ry="2"></ellipse>
+    <ellipse cx="100" cy="28" rx="2" ry="4"></ellipse>
+    <ellipse cx="100" cy="42" rx="4" ry="2"></ellipse>
+    <ellipse cx="100" cy="56" rx="2" ry="4"></ellipse>
+  </g>
+  <circle cx="100" cy="78" r="7" fill="none" stroke="#2B231C" stroke-width="2"></circle>
+  <circle cx="100" cy="95" r="5" fill="none" stroke="#2B231C" stroke-width="1.5"></circle>
+  
+  <path d="M 140 110&#xA;           C 170 140, 170 200, 140 230&#xA;           C 110 240, 80 220, 70 190&#xA;           C 90 215, 130 205, 135 175&#xA;           C 138 150, 125 125, 110 115&#xA;           C 120 110, 132 108, 140 110 Z" fill="url(#m-grad)" stroke="#2B231C" stroke-width="2" stroke-linejoin="round"></path>
+  
+  <path d="M 80 140 L 81.5 144 L 85.5 145.5 L 81.5 147 L 80 151 L 78.5 147 L 74.5 145.5 L 78.5 144 Z" fill="#2B231C"></path>
+  <path d="M 90 200 L 91 203 L 94 204 L 91 205 L 90 208 L 89 205 L 86 204 L 89 203 Z" fill="#2B231C"></path>
+</svg>

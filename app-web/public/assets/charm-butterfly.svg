@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 280" width="200" height="280" aria-label="Butterfly charm">
+  <defs>
+    <linearGradient id="b-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FCE588"></stop>
+      <stop offset="1" stop-color="#DE911D"></stop>
+    </linearGradient>
+  </defs>
+  <path d="M 100 0 L 100 70" stroke="#2B231C" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="0 6"></path>
+  <g stroke="#2B231C" stroke-width="1.4" fill="none">
+    <ellipse cx="100" cy="14" rx="4" ry="2"></ellipse>
+    <ellipse cx="100" cy="28" rx="2" ry="4"></ellipse>
+    <ellipse cx="100" cy="42" rx="4" ry="2"></ellipse>
+    <ellipse cx="100" cy="56" rx="2" ry="4"></ellipse>
+  </g>
+  <circle cx="100" cy="78" r="7" fill="none" stroke="#2B231C" stroke-width="2"></circle>
+  <circle cx="100" cy="95" r="5" fill="none" stroke="#2B231C" stroke-width="1.5"></circle>
+  
+  <ellipse cx="100" cy="170" rx="6" ry="50" fill="#2B231C"></ellipse>
+  
+  <g fill="url(#b-grad)" stroke="#2B231C" stroke-width="2" stroke-linejoin="round">
+    <path d="M 100 135 C 50 120, 20 145, 30 180 C 40 200, 70 195, 100 180 Z"></path>
+    <path d="M 100 180 C 60 195, 40 215, 60 235 C 80 240, 95 220, 100 200 Z"></path>
+    <path d="M 100 135 C 150 120, 180 145, 170 180 C 160 200, 130 195, 100 180 Z"></path>
+    <path d="M 100 180 C 140 195, 160 215, 140 235 C 120 240, 105 220, 100 200 Z"></path>
+  </g>
+  <circle cx="55" cy="160" r="4" fill="#FFFBEA"></circle>
+  <circle cx="145" cy="160" r="4" fill="#FFFBEA"></circle>
+  
+  <path d="M 98 125 C 92 110, 82 105, 78 110" stroke="#2B231C" stroke-width="1.5" fill="none" stroke-linecap="round"></path>
+  <path d="M 102 125 C 108 110, 118 105, 122 110" stroke="#2B231C" stroke-width="1.5" fill="none" stroke-linecap="round"></path>
+</svg>
